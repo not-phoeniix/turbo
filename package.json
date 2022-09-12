@@ -1,0 +1,29 @@
+{
+  "name": "Turbo",
+  "author": "Nikki",
+  "version": "1.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "turbo",
+    "uuid": "90b4a1d1-1928-4298-8631-62a854551adc",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true 
+    },
+    "messageKeys": [
+      "sillyhead"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
